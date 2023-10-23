@@ -79,6 +79,7 @@ header a,
     font-size: 18px;
     width: 130px;
     border: none;
+    font-weight: 600;
 }
 
 .hero .image-placeholder {
@@ -102,25 +103,24 @@ header a,
     display: flex;
     justify-content: center;
     height: 525px;
+    color: #1F2937;
 }
 
 .second-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .four-containers {
     display: flex;
     gap: 50px;
-    padding-bottom: 118px;
+    margin-bottom: 118px;
 }
 
 .second-part h2,
-p {
-    color: #1F2937;
-    text-align: center;
+.second-part p {
     margin: 0;
+    text-align: center;
 }
 
 .second-part h2 {
@@ -145,6 +145,39 @@ div.image-container {
     width: 200px;
     padding-top: 8px;
 }
+
+
+
+.third-part {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 455px;
+    color: #1F2937;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-part p {
+    width: 900px;
+    margin: 142px 0 0 0;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic
+}
+
+.third-part h4 {
+    align-self: flex-end;
+    font-size: 22px;
+    margin: 5px 0 auto;
+}
+
+
+
+
 
 /* * {
     border: 1px solid pink;
