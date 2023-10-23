@@ -7,17 +7,17 @@ body {
     font-size: 18px;
 }
 
-.centralization-first {
+.first-part {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #1F2937;
 }
 
-.first-part {
+.first-content {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 600px;
 }
 
 header {
@@ -94,6 +94,56 @@ header a,
     object-fit: cover;
     object-position: top;
     border-radius: 5px;
+}
+
+
+
+.second-part {
+    display: flex;
+    justify-content: center;
+    height: 525px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.four-containers {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 118px;
+}
+
+.second-part h2,
+p {
+    color: #1F2937;
+    text-align: center;
+    margin: 0;
+}
+
+.second-part h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: auto 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+div.image-container {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.container p {
+    width: 200px;
+    padding-top: 8px;
 }
 
 /* * {
